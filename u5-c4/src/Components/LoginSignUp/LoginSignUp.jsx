@@ -181,7 +181,7 @@ export const LoginSignUp = () => {
         <input type="submit" className="submitSignUpForm" id="submitSignup" />
       </form>
 
-      {/  /}
+     
       <form className="login" onSubmit={logHandleSubmit}>
         <h1>Login</h1>
         <label>name</label>
