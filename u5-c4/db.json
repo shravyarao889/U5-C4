@@ -1,0 +1,15 @@
+{
+  "users": [
+    {
+      "name": "shravya",
+      "password": "shravu",
+      "location": "bangalore",
+      "interests": [
+        "food"
+      ],
+      "image": "http://getwallpapers.com/wallpaper/full/4/c/3/361592.jpg",
+      "id": 1
+    }
+  ],
+  "meetups":[]
+}
