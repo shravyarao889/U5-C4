@@ -10,10 +10,11 @@ export const Routers = () => {
     return (<>
         <Navbar />
         <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/loginsignup" element={<LoginSignUp />}/>
-            <Route path="/meetup/:id" element={<AddMeetup />}/>
-            <Route path="*" element={<NotFound />}/>
+        <Route path="/" element={<Home />} />
+            <Route path="/loginsignup" element={<LoginSignUp/>} />
+            <Route path="/meetup/:id" element={<Event/>} />
+            <Route path="/addmeetup" element={<AddMeetup />} />
+            <Route path="*" element={ <NotFound/>}/>
             
 
             {/* Create other routes here: loginsignup, meetup, addmeetup and 404 */}
